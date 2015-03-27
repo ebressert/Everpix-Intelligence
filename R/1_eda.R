@@ -2,9 +2,11 @@
 library(dplyr)
 library(lubridate)
 library(tidyr)
-## Dir: external_metrics
 
+
+## Dir: external_metrics
 aws_billing <- read.csv("external_metrics/aws_billing_from_2012_10.csv", stringsAsFactors = FALSE)
+
 str(aws_billing) # 1584 obs. of  12 variables
 
 aws_billing$UsageStartDate <- ymd_hms(aws_billing$UsageStartDate)
@@ -14,12 +16,10 @@ aws_billing$UsageEndDate <- ymd_hms(aws_billing$UsageEndDate)
 head(aws_billing)
 summary(aws_billing)
 
+# Hist
 aws_billing %>%
   ggplot(aes(x = TotalCost)) +
   geom_histogram()
-
-
-
 
 
 # Total Cost per Product
