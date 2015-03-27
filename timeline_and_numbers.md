@@ -1,6 +1,3 @@
-Everpix Timeline
-----------------
-
 * **Late spring 2011:** Pierre starts working on prototypes of Everpix
 * **Summer 2011:** Kevin & Wayne join Pierre as co-founders
 * **August 2011:** Incorporation of 33cube, Inc.
@@ -35,16 +32,3 @@ Everpix Timeline
 * **November 2013:** Public announcement of upcoming Everpix shutdown
 * **December 2013:** Everpix shutdown
 
-Everpix by the Numbers
-----------------------
-
-* ~6,600 engineering tickets created in [Trac](http://trac.edgewall.org/) (only 350 left open)
-* ~5,000 support tickets processed in [Zendesk](http://www.zendesk.com/)
-* Lines of code (excluding third-party source code)
-  * Obj-C: 57K
-  * C++: 56K
-  * JavaScript: 33K
-  * Python: 28K
-  * C#: 18K
-  * Java: 9K
-  * C: 3K
